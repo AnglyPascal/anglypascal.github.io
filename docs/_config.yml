@@ -21,7 +21,7 @@ title                    : "Ahsan's Island"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "M Ahsan Al Mahir"
-description              : "hehe, eta amra blog"
+description              : "Personal Blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "M Ahsan Al Mahir"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am **great**."
-  location         : "On the top of the world"
+  bio              : ""
+  location         : "Dhaka, Bangladesh"
   email            : "ahsanalmahir@gmail.com"
   links:
     - label: "Email"
@@ -111,7 +111,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/ahsan.lazim"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AnglyPascal"
