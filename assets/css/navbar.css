@@ -1,0 +1,161 @@
+body{
+  overflow-x: hidden;
+  background: #edf8ff;
+}
+
+header{
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  box-shadow: 0 0 30px rgb(199, 199, 199);
+}
+.just-for-nav{
+  height: 60px;
+  width: 100%;
+}
+nav{
+  /* position: sticky; */
+  /* z-index: 20; */
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a{
+  color: var(--bs-primary);
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav .navbar-list{
+  /* background: red; */
+  height: 100%;
+  width: 450px;
+}
+nav ul{
+  height: 100%;
+  /* background: red; */
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .navbar-brand{
+   /* font-size: 24px; */
+ }
+ nav ul a:hover{
+   height: 100%;
+  color: white;
+ }
+
+ nav li{
+   text-transform: uppercase;
+   /* letter-spacing: 1.7px; */
+   height: 100%;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background: red; */
+ }
+ nav li:hover{
+   background: var(--bs-primary);
+   cursor: pointer;
+ }
+
+ .navbar-brand{
+   font-weight: bolder;
+   color: var(--bs-primary);
+ }
+ .navbar-brand:hover{
+   color: var(--bs-primary);
+   opacity: 0.9;
+ }
+
+ main{
+   width: 80%;
+   margin: 0 auto;
+   /* position: relative; */
+ }
+ .burger{
+   display: none;
+ }
+ .burger-stick{
+   width:25px;
+   height: 4px;
+   margin-bottom: 5px;
+   background-color: var(--bs-primary);
+ }
+
+ .responsive-sidebar{
+   position: absolute;
+   right: 0;
+   z-index: 69;
+   top: 50px;
+   width: 350px;
+   height: calc(100vh - 50px );
+   background: var(--bs-primary);
+   transform: translateX(350px);
+   opacity: 0.96;
+ }
+
+.responsive-sidebar ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  height: 100%;
+}
+.responsive-sidebar a{
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+ .animation-in{
+   animation: burger-animation-in .5s ease-out forwards;
+ }
+ .animation-out{
+   animation: burger-animation-out .5s ease-out forwards;
+ }
+
+ @keyframes burger-animation-in {
+   from{
+    transform: translateX(350);
+   }
+   to{
+    transform: translateX(0);
+   }
+ }
+
+ @keyframes burger-animation-out{
+  from{
+    transform: translateX(0);
+   }
+   to{
+    transform: translateX(350);
+   }
+ }
+
+ @media only screen and (max-width: 1024px) {
+   nav, main{
+     width: 90%;
+   }
+   .navbar-list{
+     display: none;
+   }
+   .burger{
+     display: block;
+   }
+   .burger:hover{
+     cursor: pointer;
+     opacity: 0.9;
+   }
+ }

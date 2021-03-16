@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{site.html_title}}</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/main-course-section.css">
+  <link rel="stylesheet" href="/assets/app.css">
+
+  <script src="https://use.fontawesome.com/1389c29263.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="navbar-brand">{{ site.brand_title }}</a>
+      <div class="navbar-list">
+        <ul>
+          <a href="/blog/"><li>Blog</li></a>
+          <a href="/#courseSection"><li>Courses</li></a>
+          <a target="_blank" href="mailto:{{ site.email }}"><li>Contact</li></a>
+        </ul>
+      </div>
+      <div class="burger" id="burger-menu">
+        <div class="burger-stick"></div>
+        <div class="burger-stick"></div>
+        <div class="burger-stick"></div>
+      </div>
+    </nav>
+    <div class="responsive-sidebar" id="sidebar">
+      <ul>
+        <a href="/blog/"><li>Blog</li></a>
+        <a href="/#courseSection"><li>Courses</li></a>
+        <a target="_blank" href="mailto:{{ site.email }}"><li>Contact</li></a>
+      </ul>
+    </div>
+  </header>
+  <div class="just-for-nav"></div>
+
+  {% for course in site.data.courses %}
+  {% if course.permalink == page.permalink and course.status == 1 %}
+  <main>
+   <div class="main-course-section">
+     <div class="cover-image">
+      <img class="img-fluid" src="{{ course.brand_image }}" class=""/>
+     </div>
+     
+     <div class="course-body">
+      <div class="row">
+        <div class="course-left col col-md-8 col-sm-12 col-12">
+          <h1>{{ course.title }}</h1>
+          <!-- <h1>{{ page.permalink }}</h1> -->
+          <p>{{course.short_description}}</p>
+  
+          <h3>Pre-requirements:</h3>
+          <ul class="list-group">
+            {% for pre_requirement in course.pre_requirements %}
+            <li class="list-group-item"><i class="fa fa-check"></i> {{ pre_requirement }}</li>
+            {% endfor %}
+          </ul>
+  
+          <h3>Course Content:</h3>
+  
+          <ul class="list-group">
+            {% for content in course.course_content %}
+            <li class="list-group-item"><i class="fa fa-check"></i> {{ content }}</li>
+            {% endfor %}
+          </ul>
+          <p>
+            {{ content }}
+          </p>
+        </div>
+        
+  
+        <div class="course-right col col-md-4 col-sm-12 col-12" >
+          <div class="inside">
+            <div class="money">Course Price: {{course.course_price}}</div>
+              <hr>
+            <div class="includes">
+              <div class="header">
+                This Course Includes: 
+              </div>
+              <ul>
+                {% for course_include in course.this_course_includes %}
+                  <li class="list-group-item"><i class="fa fa-check"></i> {{ course_include }}</li>
+                {% endfor %}
+               
+              </ul>
+            </div>
+            <div class="subscribe">
+              <a class="btn btn-primary btn-subscribe" target="_blank" href="{{ course.subscribe_link }}">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+   
+    </div>
+
+
+
+  </main>
+  {% endif %}
+
+  {%  if course.status == 0 %}
+    <main style="height:100vh; display: flex;align-items: center;justify-content: center;">
+      <h1>This course isn't available right now</h1>
+    </main>
+  {% endif  %}
+  {% endfor %}
+
+  <div class="footer">
+    <div>
+       copyright&copy; by <a href="https://www.facebook.com/asifthen00b/" target="_blank" rel="noopener noreferrer">Ahnaf Shahriar</a>
+    </div>
+  </div>
+
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

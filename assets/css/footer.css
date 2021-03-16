@@ -1,0 +1,21 @@
+.footer{
+  background: var(--bs-primary);
+  height: 40px;
+  width: auto;
+  margin-left: -137px;
+  margin-right: -137px;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer div{
+  color: rgba(245, 245, 245, 0.582);
+  font-size: 13px;
+}
+
+.footer a{
+  color: rgb(228, 228, 228);
+  text-decoration: none;
+}

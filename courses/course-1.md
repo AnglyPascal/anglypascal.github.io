@@ -1,0 +1,6 @@
+---
+layout: singlecourse
+permalink: "/course/course1"
+---
+
+Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem 

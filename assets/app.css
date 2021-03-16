@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: sans-serif;
+  /* font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 1.125rem; */
+}
+
+a.pdf-link{
+  padding: 2px;
+  border: 1px solid blue;
+  color: blue;
+  text-decoration: none;
+}
+
+a.pdf-link:hover{
+  color: rgb(2, 2, 83);
+  border-color:rgb(2, 2, 83);
+}

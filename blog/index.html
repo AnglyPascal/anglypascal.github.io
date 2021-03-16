@@ -1,0 +1,49 @@
+---
+layout: blog
+---
+
+{% for post in paginator.posts %}
+  <!-- <h1>{{ post.title }}</h1> -->
+  {% if post.status == 1 %}
+    <a class="borota" href="{{ post.url }}">
+      <div class="single-post">
+        <h3>{{ post.title }}</h3>
+        <small class="date text-secondary">{{ post.date | date_to_long_string }}</small>
+        <!-- {% if post.category != null %} -->
+        <span class="date text-secondary category"> - {{ post.category }} </span>
+        <!-- {% endif %} -->
+        <p class="description text-secondary"> {{ post.short_description }} <span style="color: rgb(23, 0, 153);font-weight: bold;">... See Details</span></p>
+      </div>
+    </a>
+  {% endif  %}
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<br>
+<div class="for-pagination">
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a class="prev" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    {% else %}
+      <span class="prev">&laquo; Prev</span>
+    {% endif %}
+  
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <em>{{ page }}</em>
+      {% elsif page == 1 %}
+        <a class="pagenum" href="{{ '/' | relative_url }}">{{ page }}</a>
+      {% else %}
+        <a class="pagenum" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  
+    {% if paginator.next_page %}
+      <a class="next" href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% else %}
+      <span class="next">Next &raquo;</span>
+    {% endif %}
+  </div>
+</div>
+<br>
+{% endif %}

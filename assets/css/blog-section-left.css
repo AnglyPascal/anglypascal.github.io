@@ -1,0 +1,33 @@
+.borota {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.single-post{
+  padding: 20px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.single-post h3{
+  font-weight: bolder;
+  color: var(--bs-blog-title);
+  margin-bottom: -5px;
+}
+.single-post .date{
+  font-size: 12px;
+  font-style: italic;
+  /* margin-top: 0px; */
+  /* margin-left: 2px; */
+}
+.single-post .description{
+  margin-top: 20px;
+
+}
+
+.borota:hover{
+  color: black;
+  text-decoration: none;
+}
+.single-post:hover{
+  box-shadow: 0 0 5px rgb(216, 216, 216);
+}

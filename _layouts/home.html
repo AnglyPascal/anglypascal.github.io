@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{site.html_title}}</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/upperBody.css">
+  <link rel="stylesheet" href="/assets/css/aboutMe.css">
+  <link rel="stylesheet" href="/assets/css/myCourses.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="/assets/app.css">
+
+  <script src="https://use.fontawesome.com/1389c29263.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="navbar-brand">{{ site.brand_title }}</a>
+      <div class="navbar-list">
+        <ul>
+          <a href="/blog/"><li>Blog</li></a>
+          <a href="#courseSection"><li>Courses</li></a>
+          <a target="_blank" href="mailto:{{site.email}}"><li>Contact</li></a>
+        </ul>
+      </div>
+      <div class="burger" id="burger-menu">
+        <div class="burger-stick"></div>
+        <div class="burger-stick"></div>
+        <div class="burger-stick"></div>
+      </div>
+    </nav>
+    <div class="responsive-sidebar" id="sidebar">
+      <ul>
+        <a href="/blog/"><li>Blog</li></a>
+        <a href="#courseSection"><li>Courses</li></a>
+        <a target="_blank" href="mailto:{{site.email}}"><li>Contact</li></a>
+      </ul>
+    </div>
+  </header>
+  <div class="just-for-nav"></div>
+
+  <main>
+   <div class="brand-image">
+    <img src="assets/img/brand-2.svg" />
+   </div>
+   <div class="brand-home">
+     <h2> {{site.title}} </h2>
+     <p> {{site.main_short_description}}</p>
+     <a href="#courseSection" class="btn btn-primary">Go to courses</a>
+   </div>
+
+   <div class="about-me">
+      <div class="inside">
+        <h2>About Me</h2>
+        <p>{{ site.about_me }}</p>
+      </div>
+   </div>
+   <!-- <div id=""></div> -->
+   <div class="my-courses" id="courseSection">
+     <div class="inside">
+       <h2>My Courses</h2>
+       <hr>
+
+       <div class="row ">
+
+        {% for course in site.data.courses %}
+          <!-- {{ course }} -->
+          {% if course.status == 1 %}
+         <div class="courses-col col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="card">
+            <img src="{{ course.brand_image }}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{ course.title }}</h5>
+              <p class="card-text text-secondary">
+                {{ course.short_description }} <a class="card-details-link" href="{{ course.permalink }}">....Details</a></p>
+              <div class="card-footer-custom">
+                <a target="_blank" href="{{ course.subscribe_link }}" class="btn btn-success">Subscribe</a>
+              </div>
+            </div>
+          </div>
+         </div>
+         {% endif %}
+         {% endfor %}
+
+       </div>
+       <div class="footer">
+         <div>
+            copyright&copy; by <a href="https://www.facebook.com/asifthen00b/" target="_blank" rel="noopener noreferrer">Ahnaf Shahriar</a>
+         </div>
+       </div>
+
+     </div>
+   </div>
+
+  </main>
+
+
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

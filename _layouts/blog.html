@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{site.html_title}}</title>
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/blog-section.css">
+  <link rel="stylesheet" href="/assets/css/blog-section-left.css">
+  <link rel="stylesheet" href="/assets/css/blog-section-right.css">
+  <link rel="stylesheet" href="/assets/css/pagination.css">
+  <link rel="stylesheet" href="/assets/css/singleblog.css">
+  <link rel="stylesheet" href="/assets/css/markdown.css">
+  <link rel="stylesheet" href="/assets/app.css">
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+  </script>
+
+  <script src="https://use.fontawesome.com/1389c29263.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="navbar-brand">{{ site.brand_title }}</a>
+      <div class="navbar-list">
+        <ul>
+          <a href="/blog/"><li>Blog</li></a>
+          <a href="/#courseSection"><li>Courses</li></a>
+          <a target="_blank" href="mailto:{{ site.email }}"><li>Contact</li></a>
+        </ul>
+      </div>
+      <div class="burger" id="burger-menu">
+        <div class="burger-stick"></div>
+        <div class="burger-stick"></div>
+        <div class="burger-stick"></div>
+      </div>
+    </nav>
+    <div class="responsive-sidebar" id="sidebar">
+      <ul>
+        <a href="/blog/"><li>Blog</li></a>
+        <a href="/#courseSection"><li>Courses</li></a>
+        <a target="_blank" href="mailto:{{ site.email }}"><li>Contact</li></a>
+      </ul>
+    </div>
+  </header>
+  <div class="just-for-nav"></div>
+
+  <main class="blog-section">
+    <div class="row">
+      <div class="col col-md-9 col-sm-12 col-12 left">
+        <div class="inside">
+          {{ content }}
+        </div>
+      </div>
+      <div class="col col-md-3 col-sm-12 col-12 right">
+        <div class="inside">
+          <h5 style="font-weight: bold; margin-bottom: 20px;">All posts: </h5>
+          <ul>
+            {% for post in site.posts %}
+            <a href="{{ post.url }}" class="{% if page.permalink == post.permalink %}
+                active
+              {% endif %}"><li>{{post.title}}</li></a>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+  <div class="footer">
+    <div>
+      copyright&copy; by <a href="https://www.facebook.com/asifthen00b/" target="_blank" rel="noopener noreferrer">Ahnaf Shahriar</a>
+    </div>
+  </div>
+
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.singleblog h3{
+  font-weight: bolder;
+  color: var(--bs-single-blog-title);
+}
+.singleblog .date{
+  /* font-weight: bold; */
+  color: rgb(155, 155, 155);
+  font-size: 16px;
+}

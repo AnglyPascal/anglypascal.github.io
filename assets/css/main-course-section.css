@@ -1,0 +1,116 @@
+.course-body{
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.course-body h1{
+  color: var(--bs-primary);
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 30px;
+  /* margin-bottom: 30px; */
+}
+
+.course-body h3{
+  color: var(--bs-primary);
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 20px;
+  /* margin-bottom: 30px; */
+}
+
+.course-body p{
+  /* font-weight: bold; */
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(34, 34, 34);
+}
+
+
+.cover-image{
+  max-width: 100%;
+  /* height: 400px; */
+}
+
+.cover-image img{
+  object-fit: cover;
+  width: 100%;
+  max-height: 350px;
+  border: 2px solid rgba(0, 0, 0, 0.24);
+}
+
+.course-right .inside{
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(122, 122, 122, 0.52);
+  background: white;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+}
+
+.course-right{
+  margin-bottom: 30px;
+}
+
+.course-right .money{
+  font-weight: bolder;
+  font-size: 25px;
+  color: var(--bs-primary);
+}
+
+.course-right .includes{
+  margin-top: 30px;
+}
+.course-right .includes .header{
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: bolder;
+  color: var(--bs-primary);
+}
+
+.course-right ul{
+  /* list-style: circle; */
+  padding: 0;
+  list-style-type: none;
+}
+.course-right li{
+  margin-left: 0;
+  /* padding: 10px; */
+}
+
+.btn-subscribe{
+  width: 100%;
+  height: 50px;
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin: 20px auto;
+}
+
+.footer{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bs-primary);
+}
+
+.footer div{
+  color: rgba(245, 245, 245, 0.582);
+  font-size: 13px;
+}
+
+.footer a{
+  color: rgb(228, 228, 228);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 869px){
+  .course-right .inside{
+    /* margin: 0; */
+  }
+}

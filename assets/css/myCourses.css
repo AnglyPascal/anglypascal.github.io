@@ -1,0 +1,47 @@
+.my-courses{
+  position: absolute;
+  top: 700px;
+  width: 100vw;
+  left: 0;
+  /* background: red; */
+}
+.my-courses .inside{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.my-courses .inside h2{
+  font-weight: 900;
+  text-align: center;
+  color: var(--bs-primary);
+}
+
+.courses-col{
+  margin-bottom: 20px;
+}
+
+.my-courses .card-title{
+  font-weight: 900;
+  color: var(--bs-primary);
+
+}
+.card-footer-custom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-details-link{
+  text-decoration: none;
+  color: var(--bs-primary);
+  font-weight:900;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 1024px){
+  .my-courses .inside{
+    width: 90%;
+  }
+  .my-courses{
+    top: 780px;;
+  }
+}

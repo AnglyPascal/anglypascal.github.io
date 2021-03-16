@@ -1,0 +1,81 @@
+  [ 
+    {
+    "status" : 1,
+    "title": "this is a wonderful course title",
+    "brand_image" : "/assets/img/math2.jpg",
+    "short_description": "this is a short description for your course. You can definitely make it as long as you want but a short overview of your course can really help niggas understand what you're trying to teach",
+    "pre_requirements": [
+      "You need to know Basic Mathematics",
+      "You have to have Internet Connection",
+      "You need to know everything about computational Geometry",
+      "You need some money too"
+    ],
+    "course_content": [
+      "Linear Algebra 2.0",
+      "Vector Calculus",
+      "diving deeper into coordinate geometry",
+      "fucking some assholes"
+    ],
+    "course_price": "5000/-",
+    "this_course_includes": [
+      "69 Hours of Live class",
+      "Live fucking session",
+      "Shutting the fucking up session"
+    ],
+    "subscribe_link" : "https://duoblogger.github.io",
+    "permalink": "/course/course1"
+  },
+
+  {
+    "status" : 1,
+    "title": "this is a wonderful course title",
+    "brand_image" : "/assets/img/math2.jpg",
+    "short_description": "this is a short description for your course. You can definitely make it as long as you want but a short overview of your course can really help niggas understand what you're trying to teach",
+    "pre_requirements": [
+      "You need to know Basic Mathematics",
+      "You have to have Internet Connection",
+      "You need to know everything about computational Geometry",
+      "You need some money too"
+    ],
+    "course_content": [
+      "Linear Algebra 2.0",
+      "Vector Calculus",
+      "diving deeper into coordinate geometry",
+      "fucking some assholes"
+    ],
+    "course_price": "5000/-",
+    "this_course_includes": [
+      "69 Hours of Live class",
+      "Live fucking session",
+      "Shutting the fucking up session"
+    ],
+    "subscribe_link" : "https://duoblogger.github.io",
+    "permalink": "/course/course2"
+  },
+  {
+    "status" : 1,
+    "title": "this is a wonderful course title",
+    "brand_image" : "/assets/img/math2.jpg",
+    "short_description": "this is a short description for your course. You can definitely make it as long as you want but a short overview of your course can really help niggas understand what you're trying to teach",
+    "pre_requirements": [
+      "You need to know Basic Mathematics",
+      "You have to have Internet Connection",
+      "You need to know everything about computational Geometry",
+      "You need some money too"
+    ],
+    "course_content": [
+      "Linear Algebra 2.0",
+      "Vector Calculus",
+      "diving deeper into coordinate geometry",
+      "fucking some assholes"
+    ],
+    "course_price": "5000/-",
+    "this_course_includes": [
+      "69 Hours of Live class",
+      "Live fucking session",
+      "Shutting the fucking up session"
+    ],
+    "subscribe_link" : "https://duoblogger.github.io",
+    "permalink": "/course/course3"
+  }
+]

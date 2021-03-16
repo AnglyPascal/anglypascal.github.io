@@ -1,0 +1,25 @@
+.blog-section .right .inside ul{
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.blog-section .right .inside a{
+  text-decoration: none;
+  color: var(--bs-primary);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.blog-section .right .inside a:hover{
+  color: rgb(206, 52, 6);
+}
+
+.blog-section .right .inside li{
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.blog-section .right .inside a.active{
+  color: rgb(206, 52, 6);
+}

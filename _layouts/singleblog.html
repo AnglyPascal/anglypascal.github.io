@@ -1,0 +1,19 @@
+---
+layout: blog
+---
+{% if page.status == 1 %}
+
+<!-- <link src="https://cdn.jsdelivr.net/npm/star-markdown-css/dist/planet/planet-markdown.min.css"> -->
+
+<div class="singleblog">
+  <h3> {{ page.title }} </h3>
+  <small class="date"> {{ page.date | date_to_long_string }} - {{page.category}} </small>
+  <!-- <br><br>
+  <hr> -->
+  
+  {{content}}
+</div>
+
+{% endif %}
+
+<!-- {{content}} -->

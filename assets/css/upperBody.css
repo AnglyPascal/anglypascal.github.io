@@ -1,0 +1,51 @@
+.brand-image{
+  position: absolute;
+  right: 150px;
+  top: 15px;
+  /* background: red; */
+}
+.brand-image img{
+  height:500px;
+}
+.brand-home{
+  position: absolute;
+  top: 120px;
+  width: 420px;
+}
+.brand-home h2{
+  max-width: 25ch;
+  font-weight: 900;
+  color: var(--bs-primary);
+}
+.brand-home p{
+  line-height: 25px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--bs-secondary);
+  margin-bottom: 30px;
+  max-width: 50ch;
+}
+/* .brand-home button{
+  /* margin-top: 80px; 
+} */
+
+@media only screen and (max-width: 1300px){
+  .brand-image{
+    /* display: none; */
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+  .brand-image{
+    display: none;
+  }
+  .brand-home{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100px;
+    width: 90%;
+  }
+}
