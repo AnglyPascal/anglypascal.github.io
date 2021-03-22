@@ -1,6 +1,6 @@
 ---
 layout: singlecourse
-permalink: "/course/course1"
+permalink: "/course/crash_course"
 ---
 
-Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem Here is the long description nigga lorem ipsem 
+Hello broh this is crash course :D
