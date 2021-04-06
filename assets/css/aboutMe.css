@@ -22,7 +22,7 @@
 
 .about-me p{
   margin-top: 30px;
-  color: whitesmoke;
+  color: var(--bs-light);
   letter-spacing: 0.7;
   line-height: 25px;
 }
