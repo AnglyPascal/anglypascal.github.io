@@ -4,7 +4,7 @@ title: কনভেক্স হাল, অনেক মজার জিনি�
 permalink: /blog/post/post2
 short_description: >- 
   this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post
-status: 1
+status: 0
 category: fucking
 ---
 

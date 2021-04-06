@@ -12,11 +12,20 @@
 
 
 html_title: ahsan's island
-title: 
+title: ahsan's island
 brand_title: ahsan's island
-main_short_description: a personal blog/website :D i teach olympiad mathematics sometimes :0 oh, and i love painting, listening to music, and reading manga :D
+
+main_short_description: |
+  a personal blog/website :D 
+  i teach olympiad mathematics sometimes :0 
+  oh, and i love painting, listening to music, and reading manga :D
+
 about_me: >- 
-  I'm M Ahsan Al Mahir, a first year Mathematics and Computer Science student at Brag University. I previously participated in the International Mathematical Olympiad in 2019 and 2020. I love learning mathematics, my favorite topics are mathematical analysis and discrete mathematics. I also love teaching others about mathematics. You can check my courses in below.
+  I'm M Ahsan Al Mahir, a first year Mathematics and Computer Science student at Brac
+  University. I previously participated in the International Mathematical Olympiad in 2019
+  and 2020. I love learning mathematics, my favorite topics are mathematical analysis and
+  discrete mathematics. I also love teaching others about mathematics. You can check my
+  courses in below.
 
 email: ahsanalmahir@gmail.com
 

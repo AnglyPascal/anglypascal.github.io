@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/assets/css/myCourses.css">
   <link rel="stylesheet" href="/assets/css/footer.css">
   <link rel="stylesheet" href="/assets/app.css">
+  <link rel="stylesheet" href="/assets/css/tables.css">
 
   <script src="https://use.fontawesome.com/1389c29263.js"></script>
 </head>
@@ -77,7 +78,11 @@
               <p class="card-text text-secondary">
                 {{ course.short_description }} <a class="card-details-link" href="{{ course.permalink }}">....Details</a></p>
               <div class="card-footer-custom">
-                <a target="_blank" href="{{ course.subscribe_link }}" class="btn btn-success">Subscribe</a>
+              {%  if course.running == 1 %}
+                <a class="btn btn-primary btn-subscribe" target="_blank" href="{{ course.subscribe_link }}">Subscribe</a>
+              {% else %}
+                Course Ended
+              {% endif  %}
               </div>
             </div>
           </div>

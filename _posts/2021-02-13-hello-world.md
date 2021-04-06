@@ -4,7 +4,7 @@ title: This is a title, a long title just to check shits
 permalink: /blog/post/post1
 short_description: >- 
   this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post this is the short description for the post 
-status: 1
+status: 0
 category: "computational geo, fucking, category-rand"
 ---
 

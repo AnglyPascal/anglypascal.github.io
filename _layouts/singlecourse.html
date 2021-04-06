@@ -52,7 +52,25 @@
         <div class="course-left col col-md-8 col-sm-12 col-12">
           <h1>{{ course.title }}</h1>
           <!-- <h1>{{ page.permalink }}</h1> -->
-          <p>{{course.short_description}}</p>
+          <p>{{course.long_description}}</p>
+
+          {% if course.schedule != "None" %}
+          <h3>Schedule:</h3>
+          <table class = "table table-bordered">
+            <tr>
+              <th> </th>
+              <th> Date </th>
+              <th> Time </th>
+            </tr>
+            {% for entry in course.schedule %}
+            <tr>
+              <th> {{ entry[0] }} </th>
+              <td> {{ entry[1] }} </td>
+              <td> {{ entry[2] }} </td>
+            </tr>
+            {% endfor %}
+          </table>
+          {% endif %}
   
           <h3>Pre-requirements:</h3>
           <ul class="list-group">
@@ -65,12 +83,17 @@
   
           <ul class="list-group">
             {% for content in course.course_content %}
-            <li class="list-group-item"><i class="fa fa-check"></i> {{ content }}</li>
+            <li class="list-group-item"><i></i> {{ content }}</li>
             {% endfor %}
           </ul>
           <p>
             {{ content }}
           </p>
+
+          {% if course.payment != "None" %}
+          <h3>Payment Details:</h3>
+          {{course.payment}}
+          {% endif %}
         </div>
         
   
@@ -90,7 +113,11 @@
               </ul>
             </div>
             <div class="subscribe">
-              <a class="btn btn-primary btn-subscribe" target="_blank" href="{{ course.subscribe_link }}">Subscribe</a>
+              {%  if course.running == 1 %}
+                <a class="btn btn-primary btn-subscribe" target="_blank" href="{{ course.subscribe_link }}">Subscribe</a>
+              {% else %}
+                Course Ended
+              {% endif  %}
             </div>
           </div>
         </div>

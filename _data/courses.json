@@ -1,15 +1,77 @@
-  [ 
-    {
+[ 
+  {
     "status" : 1,
+    "running" : 1,
+    "title": "Advanced Training for Olympiad Mathematics",
+    "brand_image" : "/assets/img/math2.jpg",
+    "short_description": "A 12-week course on more advanced topics in olympiad mathematics to prepare students for BdMO National Camps and Team Selection Tests",
+    "long_description": "<p><b>Advanced Training for Olympiad Mathematics</b> is a Bangladesh National Camp level course. Familiarity with all the basic topics and theories is required to benefit the most from this course. The difficulty of the course is pretty high, so a student should expect to spend at least 10 hours per week behind problem sets besides the usual class hours.</p> <p>This course is structured in a weekly basis spanning over twelve weeks. Each week will center around a certain topic or a certain group of problems that regularly appear on math olympiads. There will be two classes every week: one Theory class, and one Discussion class. Handouts will be delivered to the students after the theory class. The students are expected to try the problems before attending the discussion class, where the problems will be discussed in details.</p>",
+    "pre_requirements": [
+      "Good grasp on problem solving",
+      "Familiarity with all basic topics"
+    ],
+    "course_content": [
+      "<b>Week 1</b> <i>Induction and other strategies</i> <p>Using the induction, contradiction, extremal and pigeonhole principal to solve combinatorial problems. This week's focus is to set the necessary foundation for the later topics of this course.</p>",
+      "<b>Week 2</b> <i>Triangle Centers</i> <p>Explore the configurations of important triangle centers like orthocenter, circumcenter, nine-point center, incenter-excenters and mixtilinear centers.</p>",
+      "<b>Week 3</b> <i>Sets, Sequences and Recursion</i> <p>Basic concepts in solving subset related problems. General approach to sequence related problems and more specific sequences like Catalan numbers and arithmetic sequence related theorems.</p>",
+      "<b>Week 4</b> <i>Graph Theory</i> <p>Basic introduction to graph theory. Using extremal principal and induction in graphs. Graph algorithms and bounding.</p>",
+      "<b>Week 5</b> <i>Projective Geometry</i> <p>Basic concepts of cross ratio, harmonic bundle, inversion. Symmedians and projective transformation. Pascal, Brianchon and Puppus' Theorem.</p>",
+      "<b>Week 6</b> <i>Primes and Orders</i> <p>Modular arithmetic modulo primes. Orders modulo prime. Lifting the exponent lemma.  Prime factorization.</p>",
+      "<b>Week 7</b> <i>Algorithms</i> <p>Divide and conquer, greedy algorithms. Other graph algorithms and configuration building strategies.</p>",
+      "<b>Week 8</b> <i>Functional Equations and Polynomials</i> <p>Basic concepts of functional equation and polynomials. Cauchy equations, bijective, injective and surjective functions. Polynomial root finding.</p>",
+      "<b>Week 9</b> <i>NT Functions and Constructions</i> <p>Number theoretic functions and integer polynomials, polynomial divisibility.  Ad-Hoc number theory construction problems using primes, divisors and modular arithmetic.</p>",
+      "<b>Week 10</b> <i>Coloring and Invariance</i> <p>Using the properties of invariants and monovariants in miscellaneous problems, including grid coloring and algorithmic analysis.</p>",
+      "<b>Week 11</b> <i>Complete Quadrilaterals and Circles</i> <p>Explore the configurations of cyclic quadrilateral and complete quadrilaterals in general. Spiral similarity and pole-polar transformation.</p>",
+      "<b>Week 12</b> <i>Combinatorial Games and Geometry</i> <p>Basic introduction to combinatorial games. Copying strategies, impartial games.  Basic concepts in combinatorial geometry.</p>"
+    ],
+    "course_price": "6000 per month, 1500 per week",
+    "this_course_includes": [
+      "One weekly theory lecture",
+      "One weekly discussion session",
+      "Weekly problem set"
+    ],
+    "schedule" : [
+      ["Theory Class", "Thursday", "12:00pm - 2:00pm"],
+      ["Discussion Class", "Sunday", "12:00pm - 2:00pm"],
+      ["Weekly problem set submission", "Saturday", "11:59pm"]
+    ],
+    "payment" : "<p>At the time of registration, you need to make and confirm the payment. You can register for as many or as few courses as you wish. The fee is 1500 BDT per week. So for each month, the fee is 6000 BDT.</p> <p>The payment should be made via Brash to the number <b>01928987074</b>. Take note of the BKash number from which the payment was made with and the transaction id, as you will require them to fill up the registration form.</p>",
+    "subscribe_link" : "https://forms.gle/Kv8pPx3E5UeLvJWd6",
+    "permalink": "/course/atom"
+  },
+  {
+    "status" : 1,
+    "running" : 0,
     "title": "BdMO Crash Course",
     "brand_image" : "/assets/img/math2.jpg",
-    "short_description": "A 9-week crash course to prepare students for the National Mathematical Olympiad",
+    "short_description": "A 9-week crash course to prepare students for the National Mathematical Olympiad, in collaboration with Ahmed Ittihad Hasib, current undergraduate in Oxford University.",
+    "long_description" : "A 9-week crash course to prepare students for the National Mathematical Olympiad, in collaboration with Ahmed Ittihad Hasib, current undergraduate in Oxford University.",
     "pre_requirements": [
       "Familiarity with olympiad style problems",
       "Have regional level problem solving abilities"
     ],
     "course_content": [
-      ""
+      "<a href=https://drive.google.com/drive/folders/1nfhIhKlJOB6c9YT_ZFIpOHMnAziirOJI?usp=sharing><b>Junior Handouts Link</b></a>",
+      "<b>Week 1</b> Junior: Basic Counting Strategies", 
+      "<b>Week 2</b> Junior: Number Theory - Divisibility", 
+      "<b>Week 3</b> Junior: Geometry Essentials", 
+      "<b>Week 4</b> Junior: Number Theory Continued", 
+      "<b>Week 5</b> Junior: Geometry Continued", 
+      "<b>Week 6</b> Junior: Symmetry and Invariance", 
+      "<b>Week 7</b> Junior: Induction", 
+      "<b>Week 8</b> Junior: Algebra and Logic Puzzles", 
+      "<b>Week 9</b> Junior: Miscellaneous Problems Collection", 
+
+      "<a href=https://drive.google.com/drive/folders/1Zganaxak91Gj1W9XKm4f4Lt0xlP61CIc?usp=sharing><b>Secondary Handouts Link</b></a>",
+      "<b>Week 1</b> Secondary: Basic Counting Strategies",
+      "<b>Week 2</b> Secondary: Induction",
+      "<b>Week 3</b> Secondary: Angle Chasing",
+      "<b>Week 4</b> Secondary: Length Chasing",
+      "<b>Week 5</b> Secondary: Number Theory - Divisibility",
+      "<b>Week 6</b> Secondary: Regional Preparation Test, Graph Theory",
+      "<b>Week 7</b> Secondary: Miscellaneous Algebra",
+      "<b>Week 8</b> Secondary: Modular Arithmetic",
+      "<b>Week 9</b> Secondary: Random Topics"
     ],
     "course_price": "6000 per month",
     "this_course_includes": [
@@ -17,7 +79,9 @@
       "One weekly discussion session",
       "Weekly problem set"
     ],
+    "schedule" : "None",
+    "payment" : "None",
     "subscribe_link" : "https://duoblogger.github.io",
     "permalink": "/course/crash_course"
   }
-]
+]  

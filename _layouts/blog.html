@@ -65,9 +65,11 @@
           <h5 style="font-weight: bold; margin-bottom: 20px;">All posts: </h5>
           <ul>
             {% for post in site.posts %}
+            {% if post.status == 1 %}
             <a href="{{ post.url }}" class="{% if page.permalink == post.permalink %}
                 active
               {% endif %}"><li>{{post.title}}</li></a>
+            {% endif %}
             {% endfor %}
           </ul>
         </div>
