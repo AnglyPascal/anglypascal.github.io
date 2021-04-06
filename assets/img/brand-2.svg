@@ -38,9 +38,9 @@
      inkscape:window-height="1041"
      id="namedview866"
      showgrid="false"
-     inkscape:zoom="1.6982265"
-     inkscape:cx="290.5529"
-     inkscape:cy="225.24975"
+     inkscape:zoom="3.396453"
+     inkscape:cx="238.45948"
+     inkscape:cy="301.31503"
      inkscape:window-x="1374"
      inkscape:window-y="8"
      inkscape:window-maximized="0"
@@ -592,6 +592,15 @@
        y1="272.78"
        x2="409.63"
        y2="272.78" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linear-gradient-22"
+       id="linearGradient3605"
+       x1="327.84"
+       y1="221.61023"
+       x2="339.43494"
+       y2="221.61023"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <title
      id="title111">Mesa de trabajo 1 copy</title>
@@ -1867,33 +1876,33 @@
      style="isolation:isolate;fill:url(#linear-gradient-20)" />
   <g
      id="g2600"
-     style="fill:#cf586a;fill-opacity:1">
+     style="fill:#f05e6a;fill-opacity:1">
     <path
        class="cls-23"
        d="m 124,233.53 q -0.19,-1.23 -0.42,-2.46 l 170.19,37 0.37,24.2 -0.37,-22.2 z"
        id="path605"
-       style="isolation:isolate;fill:#cf586a;fill-opacity:1" />
+       style="isolation:isolate;fill:#f05e6a;fill-opacity:1" />
     <path
        class="cls-24"
        d="m 294.57,321.28 -171,-36.89 c 0.1,-0.69 0.19,-1.39 0.28,-2.08 l 170.67,36.56 z"
        id="path607"
-       style="isolation:isolate;fill:#cf586a;fill-opacity:1" />
+       style="isolation:isolate;fill:#f05e6a;fill-opacity:1" />
     <polygon
        class="cls-26"
        points="293.76,268.09 406.22,239.88 236.03,202.86 123.58,231.06 "
        id="polygon611"
-       style="isolation:isolate;fill:#cf586a;fill-opacity:1" />
+       style="isolation:isolate;fill:#f05e6a;fill-opacity:1" />
     <polygon
        class="cls-30"
        points="294.58,318.88 403.84,291.05 403.84,243.63 293.77,270.08 293.76,268.09 406.22,239.88 406.22,292.34 294.58,321.28 "
        id="polygon619"
-       style="isolation:isolate;fill:#cf586a;fill-opacity:1" />
+       style="isolation:isolate;fill:#f05e6a;fill-opacity:1" />
   </g>
   <path
      class="cls-31"
      d="m 339,218.79 v 0 a 1,1 0 0 1 0.18,0.29 0.3,0.3 0 0 1 0,0.1 3.22,3.22 0 0 1 0.17,0.5 4.92,4.92 0 0 1 0,2.45 0.38,0.38 0 0 1 -0.17,0.21 v 0 l 5.21,-2 c 0,0 0,0 0,0 a 1.06,1.06 0 0 0 0,-0.53 0.36,0.36 0 0 0 -0.06,-0.15 v 0 c 0,0 0,0 0,0 l -5.51,-0.86 v 0 a 0.21,0.21 0 0 1 0.18,-0.01 z"
      id="path621"
-     style="isolation:isolate;fill:#cbc97b;fill-opacity:1" />
+     style="isolation:isolate;fill:#575755;fill-opacity:1" />
   <polygon
      class="cls-32"
      points=""
@@ -1903,7 +1912,7 @@
      class="cls-33"
      d="m 328,217 v 0 a 0.8,0.8 0 0 1 0.23,0.16 0.23,0.23 0 0 1 0.07,0.07 l 0.19,0.24 a 0.35,0.35 0 0 0 0,0.08 4.42,4.42 0 0 1 0.23,0.44 0.61,0.61 0 0 0 0.05,0.12 c 0.06,0.14 0.11,0.29 0.17,0.46 l 0.06,0.18 c 0.07,0.21 0.13,0.44 0.2,0.7 0.55,2.26 0.57,5.07 0,6.26 a 1.17,1.17 0 0 1 -0.23,0.37 0.24,0.24 0 0 1 -0.08,0.06 l -0.12,0.09 v 0 l 10.34,-3.91 v 0 a 0.38,0.38 0 0 0 0.17,-0.21 4.92,4.92 0 0 0 0,-2.45 3.22,3.22 0 0 0 -0.17,-0.5 0.3,0.3 0 0 0 0,-0.1 1,1 0 0 0 -0.18,-0.29 v 0 a 0.21,0.21 0 0 0 -0.14,-0.08 v 0 L 327.89,217 h -0.05 a 0.34,0.34 0 0 1 0.16,0 z"
      id="path625"
-     style="isolation:isolate;fill:#cbc97b;fill-opacity:1" />
+     style="isolation:isolate;fill:url(#linearGradient3605);fill-opacity:1.0" />
   <path
      class="cls-34"
      d="m 328.8,226.26 h 0.05 l 0.12,-0.09 a 0.47,0.47 0 0 1 -0.17,0.09 z"
