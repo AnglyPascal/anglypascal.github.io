@@ -31,9 +31,9 @@
       "Weekly problem set"
     ],
     "schedule" : [
-      ["Theory Class", "Thursday", "12:00pm - 2:00pm"],
-      ["Discussion Class", "Sunday", "12:00pm - 2:00pm"],
-      ["Weekly problem set submission", "Saturday", "11:59pm"]
+      ["Theory Class", "Sunday", "12:00pm - 2:00pm"],
+      ["Discussion Class", "Thursday", "12:00pm - 2:00pm"],
+      ["Weekly problem set submission", "Wednesday", "11:59pm"]
     ],
     "payment" : "<p>At the time of registration, you need to make and confirm the payment. You can register for as many or as few courses as you wish. The fee is 1500 BDT per week. So for each month, the fee is 6000 BDT.</p> <p>The payment should be made via BKash to the number <b>01928987074</b>. Take note of the BKash number from which the payment was made with and the transaction id, as you will require them to fill up the registration form.</p>",
     "subscribe_link" : "https://forms.gle/Kv8pPx3E5UeLvJWd6",
