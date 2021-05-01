@@ -13,13 +13,13 @@
     "course_content": [
       "<b>Week 1</b> <i>Induction and other strategies</i> <p>Using the induction, contradiction, extremal and pigeonhole principal to solve combinatorial problems. This week's focus is to set the necessary foundation for the later topics of this course.</p>",
       "<b>Week 2</b> <i>Triangle Centers</i> <p>Explore the configurations of important triangle centers like orthocenter, circumcenter, nine-point center, incenter-excenters and mixtilinear centers.</p>",
-      "<b>Week 3</b> <i>Sets, Sequences and Recursion</i> <p>Basic concepts in solving subset related problems. General approach to sequence related problems and more specific sequences like Catalan numbers and arithmetic sequence related theorems.</p>",
+      "<b>Week 3</b> <i>NT Functions and Constructions</i> <p>Number theoretic functions and integer polynomials, polynomial divisibility.  Ad-Hoc number theory construction problems using primes, divisors and modular arithmetic.</p>",
       "<b>Week 4</b> <i>Graph Theory</i> <p>Basic introduction to graph theory. Using extremal principal and induction in graphs. Graph algorithms and bounding.</p>",
       "<b>Week 5</b> <i>Projective Geometry</i> <p>Basic concepts of cross ratio, harmonic bundle, inversion. Symmedians and projective transformation. Pascal, Brianchon and Puppus' Theorem.</p>",
       "<b>Week 6</b> <i>Primes and Orders</i> <p>Modular arithmetic modulo primes. Orders modulo prime. Lifting the exponent lemma.  Prime factorization.</p>",
       "<b>Week 7</b> <i>Algorithms</i> <p>Divide and conquer, greedy algorithms. Other graph algorithms and configuration building strategies.</p>",
       "<b>Week 8</b> <i>Functional Equations and Polynomials</i> <p>Basic concepts of functional equation and polynomials. Cauchy equations, bijective, injective and surjective functions. Polynomial root finding.</p>",
-      "<b>Week 9</b> <i>NT Functions and Constructions</i> <p>Number theoretic functions and integer polynomials, polynomial divisibility.  Ad-Hoc number theory construction problems using primes, divisors and modular arithmetic.</p>",
+      "<b>Week 9</b> <i>Sets, Sequences and Recursion</i> <p>Basic concepts in solving subset related problems. General approach to sequence related problems and more specific sequences like Catalan numbers and arithmetic sequence related theorems.</p>",
       "<b>Week 10</b> <i>Coloring and Invariance</i> <p>Using the properties of invariants and monovariants in miscellaneous problems, including grid coloring and algorithmic analysis.</p>",
       "<b>Week 11</b> <i>Complete Quadrilaterals and Circles</i> <p>Explore the configurations of cyclic quadrilateral and complete quadrilaterals in general. Spiral similarity and pole-polar transformation.</p>",
       "<b>Week 12</b> <i>Combinatorial Games and Geometry</i> <p>Basic introduction to combinatorial games. Copying strategies, impartial games.  Basic concepts in combinatorial geometry.</p>"
