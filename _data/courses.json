@@ -19,10 +19,14 @@
       "<b>Week 6</b> <i>NT Functions and Constructions</i> <p>Number theoretic functions and integer polynomials, polynomial divisibility.  Ad-Hoc number theory construction problems using primes, divisors and modular arithmetic.</p>",
       "<b>Week 7</b> <i>Algorithms</i> <p>Divide and conquer, greedy algorithms. Other graph algorithms and configuration building strategies.</p>",
       "<b>Week 8</b> <i>Polynomials</i> <p>Basic concepts of polynomials. Polynomial root finding, polynomial equations, and integer polynomials.</p>",
-      "<b>Week 9</b> <i>Sets, Sequences and Recursion</i> <p>Basic concepts in solving subset related problems. General approach to sequence related problems and more specific sequences like Catalan numbers and arithmetic sequence related theorems.</p>",
+      "<b>Week 9</b> <i>Sequences and Recursion</i> <p>Techniques of solving sequence and recursion related problems.</p>",
       "<b>Week 10</b> <i>Coloring and Invariance</i> <p>Using the properties of invariants and monovariants in miscellaneous problems, including grid coloring and algorithmic analysis.</p>",
       "<b>Week 11</b> <i>Complete Quadrilaterals and Circles</i> <p>Explore the configurations of cyclic quadrilateral and complete quadrilaterals in general. Spiral similarity and pole-polar transformation.</p>",
-      "<b>Week 12</b> <i>Combinatorial Games and Geometry</i> <p>Basic introduction to combinatorial games. Copying strategies, impartial games.  Basic concepts in combinatorial geometry.</p>"
+      "<b>Week 12</b> <i>Combinatorial Games and Geometry</i> <p>Basic introduction to combinatorial games. Copying strategies, impartial games.  Basic concepts in combinatorial geometry.</p>",
+      "<b>Week 13</b> <i>Projective Geometry 2</i> <p>Continuation of the projective geometry class. Pole polars and projective transformations.</p>",
+      "<b>Week 14</b> <i>Ad Hoc Algebra</i> <p>.</p>",
+      "<b>Week 15</b> <i>Grids and Graphs</i> <p>Problems related to grids, and the grid to graph transformation and vice versa</p>",
+      "<b>Week 16</b> <i>Functional Equations</i> <p>Basic techniques in solving functional equations and other functions related problems.</p>"
     ],
     "course_price": "6000 per month, 1500 per week",
     "this_course_includes": [
