@@ -44,6 +44,31 @@
     "permalink": "/course/atom"
   },
   {
+    "status" : 0,
+    "running" : 1,
+    "title": "Advanced Training for Olympiad Mathematics for Beginners",
+    "brand_image" : "/assets/img/math2.jpg",
+    "short_description": "A 9-week course to prepare students for the Bangladesh National Mathematical Olympiad, in collaboration with Tahmid Hameem Chowdhury Zarif.",
+    "long_description" : "A 9-week course to prepare students for the Bangladesh National Mathematical Olympiad, in collaboration with Tahmid Hameem Chowdhury Zarif. We will cover the basic theories for the Junior and Secondary catagories. This course is designed for beginners who have participated and performed well in Regional olympiads before. The course will be challenging, and the students will require to spend about 10 hours a week to cope up with the materials.",
+    "pre_requirements": [
+      "Familiarity with olympiad style problems",
+      "Have regional level problem solving abilities"
+    ],
+    "course_content": [
+      "Coming Soon"
+    ],
+    "course_price": "6000 per month",
+    "this_course_includes": [
+      "One weekly theory lecture",
+      "One weekly discussion session",
+      "Weekly problem set"
+    ],
+    "schedule" : "Coming Soon",
+    "payment" : "Coming Soon",
+    "subscribe_link" : "https://duoblogger.github.io",
+    "permalink": "/course/atom_beginner"
+  },
+  {
     "status" : 1,
     "running" : 0,
     "title": "BdMO Crash Course",
