@@ -43,13 +43,14 @@
     "subscribe_link" : "https://forms.gle/Kv8pPx3E5UeLvJWd6",
     "permalink": "/course/atom"
   },
+
   {
     "status" : 1,
     "running" : 1,
     "title": "Olympiad Training for Beginners",
     "brand_image" : "/assets/img/math2.jpg",
     "short_description": "A 10-week course to prepare students for the Bangladesh National Mathematical Olympiad, in collaboration with Abdullah Al Rafi Mahmud and Tahmid Hameem Chowdhury Zarif.",
-    "long_description" : "A 10-week course to prepare students for the Bangladesh National Mathematical Olympiad, in collaboration with Abdullah Al Rafi Mahmud and Tahmid Hameem Chowdhury Zarif. We will cover the basic theories for the Junior and Secondary catagories. This course is designed for beginners who have participated and performed well in Regional olympiads before. The course will be challenging, and the students will require to spend about 10 hours a week to cope up with the materials.",
+    "long_description" : "A 10-week course to prepare students for the Bangladesh National Mathematical Olympiad, in collaboration with Abdullah Al Rafi Mahmud and Tahmid Hameem Chowdhury Zarif. We will cover the basic theories for the Junior, Secondary and Higher Secondary catagories. This course is designed for beginners who have participated and performed well in Regional olympiads before. The course will be challenging, and the students will require to spend about 10 hours a week to cope up with the materials.",
     "pre_requirements": [
       "Familiarity with olympiad style problems",
       "Have regional level problem solving abilities"
@@ -102,10 +103,11 @@
       ["Discussion Class", "Friday", "5:00pm - 7:00pm"],
       ["Weekly problem set submission", "Wednesday", "11:59pm"]
     ],
-    "payment" : "<p>The course fee is 1500 per week. The whole payment for 10 weeks can be made up front at the beginning of the course, or you can pay for 4 weeks at a time at the beginning of the weeks. </p> <p>The payment should be made via BKash to the number <b>01928987074</b>. Take note of the BKash number from which the payment was made with and the transaction id, as you will require them to fill up the registration form which will be emailed to the selected students.</p>",
+    "payment" : "<p>The course fee is 1500 per week. The whole payment for 10 weeks can be made up front at the beginning of the course, or you can pay for 4 weeks at a time at the beginning of the weeks. </p> <p>The payment should be made via BKash to the number <b>01928987074</b> (Personal BKash Account). Take note of the BKash number from which the payment was made with and the transaction id, as you will require them to fill up the registration form which will be emailed to the selected students.</p>",
     "subscribe_link" : "https://forms.gle/xpkvvkTJvLBFpwmWA",
     "permalink": "/course/atom_beginner"
   },
+
   {
     "status" : 1,
     "running" : 0,
